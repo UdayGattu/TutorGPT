@@ -105,4 +105,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
+
 - This project uses the OpenAI GPT-4-turbo model for conversational responses and DALL-E for image generation.
