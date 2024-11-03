@@ -15,10 +15,10 @@
       <!-- Chat messages will appear here -->
     </div>
     <div class="chat-input">
-      <input type="file" id="file-upload" accept=".pdf, .doc, .docx, .txt" hidden />
-      <button onclick="document.getElementById('file-upload').click()">Upload File</button>
-      <input type="text" id="message-input" placeholder="Type your message...">
-      <button onclick="sendMessage()">Send</button>
+      <form id="chat-form">
+        <input type="text" id="message-input" name="message" placeholder="Type your question...">
+        <button type="submit">Send</button>
+      </form>
     </div>
   </div>
   <script src="../static/script.js"></script>
